@@ -48,44 +48,44 @@
 		<h2>Update Vehicle</h2>
 		<form:form action="/editVehicle" class="needs-validation" novalidate>
 			<div class="form-group">
-				<form:label for="uname">Vehicle No.:</form:label> <form:input type="text"
-					maxlength="6" class="form-control" id="vno"
-					placeholder="Enter Vehicle Number" name="vno" required>
+				<form:label path="vehicleNo">Vehicle No.:</form:label> <form:input type="text"
+					maxlength="6" class="form-control" path="vehicleNo"
+					placeholder="Enter Vehicle Number" required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<form:label for="uname">Branch:</form:label> <form:input type="text"
-					class="form-control" id="branch" placeholder="Enter Branch"
-					name="branch" required>
+				<form:label path="branch">Branch:</form:label> <form:input type="text"
+					class="form-control" path="branch" placeholder="Enter Branch"
+					required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<form:label for="uname">Vehicle Type:</form:label> <form:input type="text"
-					class="form-control" id="vtype" placeholder="Enter VehicleType"
-					name="vtype" required>
+				<form:label path="vehicleType">Vehicle Type:</form:label> <form:input type="text"
+					class="form-control" path="vehicleType" placeholder="Enter VehicleType"
+					required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<form:label for="uname">Insurance Expiry date:</form:label> <form:input type="date"
-					class="form-control" id="iexp"
-					placeholder="Enter Insurance Expiry date" name="iexp" required>
+				<form:label path="insuranceExpiryDate">Insurance Expiry date:</form:label> <form:input type="date"
+					class="form-control" path="insuranceExpiryDate"
+					placeholder="Enter Insurance Expiry date" required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<form:label for="uname">Last Serviced Date:</form:label> <form:input type="date"
-					class="form-control" id="lsd"
-					placeholder="Enter Last Serviced Date" name="lsd" required>
+				<form:label path="lastServiceDate">Last Serviced Date:</form:label> <form:input type="date"
+					class="form-control" path="lastServiceDate"
+					placeholder="Enter Last Serviced Date" required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<form:label for="uname">Service Due date:</form:label> <form:input type="date"
-					class="form-control" id="sdd" placeholder="Enter Service Due date"
-					name="sdd" required>
+				<form:label path="serviceDueDate">Service Due date:</form:label> <form:input type="date"
+					class="form-control" path="serviceDueDate" placeholder="Enter Service Due date"
+					required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
