@@ -82,8 +82,8 @@
 				<div class="col-sm-5">
 
 					<div class="form-group">
-						<form:label path="vtype">Vehicle Type:</label> <form:input type="text"
-							class="form-control" path="vtype" placeholder="Enter VehicleType"
+						<form:label path="vehicleType">Vehicle Type:</label> <form:input type="text"
+							class="form-control" path="vehicleType" placeholder="Enter VehicleType"
 								required>
 						<div class="valid-feedback"></div>
 						<div class="invalid-feedback">Please fill out this field.</div>
