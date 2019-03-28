@@ -48,55 +48,55 @@
 		<h2>Update Your Details</h2>
 		<form:form action="/editEmployee" class="needs-validation" novalidate>
 			<div class="form-group">
-				<label for="uname">Employee Id:</label> <form:input type="text"
+				<form:label for="uname">Employee Id:</form:label> <form:input type="text"
 					maxlength="6" class="form-control" id="eno" placeholder="Your Id"
 					name="eno" required>
 			</div>
 			<div class="form-group">
-				<label for="uname">First Name:</label> <form:input type="text"
+				<form:label for="uname">First Name:</form:label> <form:input type="text"
 					class="form-control" id="fname" placeholder="Your first name"
 					name="fname" required>
 			</div>
 			<div class="form-group">
-				<label for="uname">Last Name:</label> <form:input type="text"
+				<form:label for="uname">Last Name:</form:label> <form:input type="text"
 					class="form-control" id="lname" placeholder="Your last name"
 					name="lname" required>
 			</div>
 			<div class="form-group">
-				<label for="uname">Age:</label> <form:input type="text"
+				<form:label for="uname">Age:</form:label> <form:input type="text"
 					class="form-control" id="age" placeholder="Your Age" name="age"
 					required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<label for="uname">Gender:</label> <form:input type="text"
+				<form:label for="uname">Gender:</form:label> <form:input type="text"
 					class="form-control" id="gen" placeholder="Your Gender" name="gen"
 					required>
 			</div>
 			<div class="form-group">
-				<label for="uname">Contact Number:</label> <form:input type="text"
+				<form:label for="uname">Contact Number:</form:label> <form:input type="text"
 					class="form-control" id="con" placeholder="Your Contact Number"
 					name="con" required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<label for="uname">Email Id:</label> <form:input type="text"
+				<form:label for="uname">Email Id:</form:label> <form:input type="text"
 					class="form-control" id="eml" placeholder="Your Email Id"
 					name="eml" required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<label for="uname">Password:</label> <form:input type="text"
+				<form:label for="uname">Password:</form:label> <form:input type="text"
 					class="form-control" id="pwd" placeholder="Your Password"
 					name="pwd" required>
 				<div class="valid-feedback"></div>
 				<div class="invalid-feedback">Please fill out this field.</div>
 			</div>
 			<div class="form-group">
-				<label for="uname">Branch:</label> <form:input type="text"
+				<form:label for="uname">Branch:</form:label> <form:input type="text"
 					class="form-control" id="branch" placeholder="Enter Branch"
 					name="branch" required>
 				<div class="valid-feedback"></div>
