@@ -48,17 +48,17 @@
 			<div class="row">
 				<div class="col-sm-5">
 					<div class="form-group">
-						<form:label for="uname">Branch:</form:label> <form:input type="text"
-							class="form-control" id="branch" placeholder="Enter Branch"
-							name="branch" required>
+						<form:label path="branch>Branch:</form:label> <form:input type="text"
+							class="form-control" path="branch" placeholder="Enter Branch"
+							 required>
 						<div class="valid-feedback"></div>
 						<div class="invalid-feedback">Please fill out this field.</div>
 					</div>
 
 					<div class="form-group">
-						<form:label for="uname">Last Serviced Month:</form:label>
+						<form:label path="lsd">Last Serviced Month:</form:label>
 						<div class="form-group">
-							<form:select class="form-control" id="lsd" name="lsd" required>
+							<form:select class="form-control" path="lsd" required>
 								<form:option value="" class="hidden" selected disabled>Choose Month</option>
 								<form:option value="jan">Jan</form:option>
 								<form:option value="feb">Feb</form:option>
@@ -82,17 +82,17 @@
 				<div class="col-sm-5">
 
 					<div class="form-group">
-						<form:label for="uname">Vehicle Type:</label> <form:input type="text"
-							class="form-control" id="vtype" placeholder="Enter VehicleType"
-							name="vtype" required>
+						<form:label path="vtype">Vehicle Type:</label> <form:input type="text"
+							class="form-control" path="vtype" placeholder="Enter VehicleType"
+								required>
 						<div class="valid-feedback"></div>
 						<div class="invalid-feedback">Please fill out this field.</div>
 					</div>
 
 					<div class="form-group">
-						<form:label for="uname">Service Due Month:</form:label>
+						<form:label path="sdm">Service Due Month:</form:label>
 						<div class="form-group">
-							<form:select class="form-control" id="sdm" name="sdm" required>
+							<form:select class="form-control" path="sdm" required>
 								<form:option value="" class="hidden" selected disabled>Choose Month</form:option>
 								<form:option value="jan">Jan</form:option>
 								<form:option value="feb">Feb</form:option>
